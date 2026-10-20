@@ -10,6 +10,20 @@ An opinionated guide to the best Python frameworks, libraries, and tools.
 
 > The **#10 most-starred repo on GitHub**. Put your product in front of Python developers. [Become a sponsor](SPONSORSHIP.md).
 
+## About This Standalone Edition
+
+- **Main repository:** [vinta/awesome-python](https://github.com/vinta/awesome-python)
+- **Based on version:** upstream commit `4818b99562e663de4537fb0dae4b2ff6570e048e` (snapshotted 2026-10-20; upstream HEAD dated 2026-10-19)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - `.github/dependabot.yml` — weekly GitHub Actions and pip (pyproject/uv) dependency updates
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for the guide (upstream website CI and deploy workflows kept as-is)
+  - `.editorconfig` — standard editor settings (UTF-8, LF, 2-space indent)
+- **Credit & licence:** All original work belongs to Vinta Chen and the upstream contributors. Licence is preserved unchanged — see `LICENSE` (the file in tree is the Creative Commons Attribution 4.0 International License, CC BY 4.0; note `pyproject.toml` declares MIT — upstream discrepancy, flagged in ENHANCEMENTS.md and left exactly as upstream has it). This edition adds the enhancements listed above only.
+
 ## Categories
 
 **AI & ML**
